@@ -1,0 +1,1504 @@
+{
+  "title": "Vegan Topic Knowledge Base",
+  "description": "Corrected and expanded pro-veganism knowledge base for RAG. Entries keep the original article/source-oriented schema: each item has id, title, authors, year, type, url, topics, and chunkable sections with concise factual content.",
+  "articles": [
+    {
+      "id": "vegan-society-definition",
+      "title": "Definition of veganism",
+      "authors": "The Vegan Society",
+      "year": null,
+      "type": "article",
+      "url": "https://www.vegansociety.com/go-vegan/definition-veganism",
+      "topics": [
+        "veganism",
+        "definition",
+        "ethics",
+        "exploitation",
+        "practicability"
+      ],
+      "sections": [
+        {
+          "heading": "Core definition",
+          "content": "Veganism is a philosophy and way of living that seeks to exclude, as far as is possible and practicable, exploitation of and cruelty to animals for food, clothing, or any other purpose."
+        },
+        {
+          "heading": "Practical implication",
+          "content": "The phrase 'possible and practicable' matters: veganism is not a demand for impossible purity, but a principle that unnecessary animal exploitation should be avoided when viable alternatives exist."
+        },
+        {
+          "heading": "RAG-safe framing",
+          "content": "A precise pro-vegan claim is: where animal use is avoidable, veganism treats non-exploitation as the ethical default. Taste, habit, convenience, or tradition do not by themselves justify harming sentient animals."
+        }
+      ]
+    },
+    {
+      "id": "academy-nutrition-2016",
+      "title": "Position of the Academy of Nutrition and Dietetics: Vegetarian Diets",
+      "authors": "Melina, Craig & Levin",
+      "year": 2016,
+      "type": "position-paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27886704/",
+      "topics": [
+        "nutrition",
+        "vegan diet",
+        "health",
+        "life stages",
+        "pregnancy",
+        "athletes"
+      ],
+      "sections": [
+        {
+          "heading": "Official position",
+          "content": "The Academy of Nutrition and Dietetics states that appropriately planned vegetarian diets, including vegan diets, are healthful, nutritionally adequate, and may provide health benefits for prevention and treatment of certain diseases."
+        },
+        {
+          "heading": "Life-stage adequacy",
+          "content": "The position paper states that appropriately planned vegan diets are suitable for all stages of the life cycle, including pregnancy, lactation, infancy, childhood, adolescence, older adulthood, and for athletes."
+        },
+        {
+          "heading": "Planning is essential",
+          "content": "The strongest accurate claim is not that every vegan diet is automatically healthy, but that vegan diets can be nutritionally adequate when planned around reliable vitamin B12 and other nutrients of concern."
+        }
+      ]
+    },
+    {
+      "id": "bda-plant-based-guidance",
+      "title": "Vegetarian, vegan and plant-based diet guidance",
+      "authors": "British Dietetic Association",
+      "year": null,
+      "type": "professional-guidance",
+      "url": "https://www.bda.uk.com/resource/vegetarian-vegan-plant-based-diet.html",
+      "topics": [
+        "nutrition",
+        "diet planning",
+        "b12",
+        "calcium",
+        "iron",
+        "iodine",
+        "omega-3",
+        "protein"
+      ],
+      "sections": [
+        {
+          "heading": "Supportive professional guidance",
+          "content": "The British Dietetic Association says plant-based diets can support healthy living at every age and life stage when balanced and appropriately planned."
+        },
+        {
+          "heading": "Protein adequacy",
+          "content": "Protein needs can be met using legumes, beans, lentils, tofu, tempeh, soy milk, nuts, seeds, grains, and other plant foods. The realistic concern is usually diet quality, not whether plant foods can contain protein."
+        },
+        {
+          "heading": "Nutrients to plan deliberately",
+          "content": "A well-planned vegan diet should include reliable vitamin B12 and should pay attention to calcium, iodine, iron, zinc, vitamin D, and omega-3 fatty acids depending on age, sunlight, fortification, and food choices."
+        }
+      ]
+    },
+    {
+      "id": "nih-vitamin-b12",
+      "title": "Vitamin B12 fact sheet",
+      "authors": "NIH Office of Dietary Supplements",
+      "year": null,
+      "type": "reference",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "topics": [
+        "nutrition",
+        "b12",
+        "supplements",
+        "fortification",
+        "vegan diet"
+      ],
+      "sections": [
+        {
+          "heading": "B12 is the key vegan nutrient",
+          "content": "Vitamin B12 is not naturally present in plant foods in reliable amounts. Vegans should use fortified foods or supplements as dependable B12 sources."
+        },
+        {
+          "heading": "Why this supports veganism rather than refuting it",
+          "content": "B12 supplementation is a manageable nutrition practice. The need for B12 does not show that animal foods are morally necessary; it shows that modern vegan diets should include a reliable direct B12 source."
+        },
+        {
+          "heading": "Corrected claim",
+          "content": "Avoid saying 'vegans do not need supplements.' The accurate pro-vegan claim is: vegan diets can be nutritionally adequate, but B12 supplementation or fortified foods are normally required."
+        }
+      ]
+    },
+    {
+      "id": "b12-bacteria-watanabe-2014",
+      "title": "Vitamin B12-containing plant food sources for vegetarians",
+      "authors": "Watanabe et al.",
+      "year": 2014,
+      "type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24667752/",
+      "topics": [
+        "b12",
+        "bacteria",
+        "supplements",
+        "vegan nutrition"
+      ],
+      "sections": [
+        {
+          "heading": "Origin of B12",
+          "content": "Vitamin B12 is synthesized by microorganisms, not by animals or plants themselves. Animals contain B12 because it is produced by microbes and then accumulated through diet, gut fermentation, or supplementation."
+        },
+        {
+          "heading": "Reliable vegan strategy",
+          "content": "Fortified foods and supplements are the practical reliable B12 strategy for vegans. This bypasses the animal as a middleman and supplies the nutrient directly."
+        },
+        {
+          "heading": "Avoid overclaiming natural plant sources",
+          "content": "Some algae, mushrooms, fermented foods, or unwashed plants may contain B12-like compounds, but they should not be treated as reliable B12 sources without evidence of active B12 and consistent dosage."
+        }
+      ]
+    },
+    {
+      "id": "nih-iron-vegetarian",
+      "title": "Iron fact sheet",
+      "authors": "NIH Office of Dietary Supplements",
+      "year": null,
+      "type": "reference",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "topics": [
+        "nutrition",
+        "iron",
+        "anaemia",
+        "bioavailability",
+        "vegan diet"
+      ],
+      "sections": [
+        {
+          "heading": "Plant iron is real but less bioavailable",
+          "content": "Vegan diets can include abundant iron from lentils, beans, tofu, tempeh, seeds, nuts, whole grains, leafy greens, and fortified foods. Plant iron is non-heme iron and is generally less bioavailable than heme iron."
+        },
+        {
+          "heading": "Absorption strategies",
+          "content": "Vitamin C-rich foods such as citrus, peppers, berries, broccoli, potatoes, or tomatoes can improve non-heme iron absorption. Tea, coffee, and high-phytate foods can reduce absorption when consumed at the same meal."
+        },
+        {
+          "heading": "Corrected claim",
+          "content": "Do not claim plant iron is identical to meat iron. The accurate pro-vegan claim is that iron adequacy is achievable on vegan diets when intake and absorption are considered."
+        }
+      ]
+    },
+    {
+      "id": "nih-omega3-vegetarian",
+      "title": "Omega-3 fatty acids fact sheet",
+      "authors": "NIH Office of Dietary Supplements",
+      "year": null,
+      "type": "reference",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "topics": [
+        "nutrition",
+        "omega-3",
+        "ala",
+        "dha",
+        "epa",
+        "algae",
+        "vegan diet"
+      ],
+      "sections": [
+        {
+          "heading": "Plant omega-3 sources",
+          "content": "Vegan diets can supply ALA omega-3 from flaxseed, chia, hemp seeds, walnuts, soy foods, and canola or soybean oil."
+        },
+        {
+          "heading": "DHA and EPA nuance",
+          "content": "Conversion from ALA to EPA and DHA is limited. Vegans who want direct DHA or EPA, especially during pregnancy, lactation, or for specific clinical reasons, can use algae-based supplements."
+        },
+        {
+          "heading": "Corrected claim",
+          "content": "Avoid saying 'flax gives all omega-3 needs automatically.' A more accurate pro-vegan claim is that ALA-rich foods plus optional algae DHA/EPA make omega-3 adequacy achievable without fish."
+        }
+      ]
+    },
+    {
+      "id": "nih-iodine-vegetarian",
+      "title": "Iodine fact sheet",
+      "authors": "NIH Office of Dietary Supplements",
+      "year": null,
+      "type": "reference",
+      "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "topics": [
+        "nutrition",
+        "iodine",
+        "thyroid",
+        "pregnancy",
+        "vegan diet"
+      ],
+      "sections": [
+        {
+          "heading": "Iodine is planning-sensitive",
+          "content": "Iodine supports thyroid function and neurodevelopment. Dairy-free diets can be low in iodine unless they include iodized salt, fortified foods, or controlled supplements."
+        },
+        {
+          "heading": "Seaweed caution",
+          "content": "Seaweed can be iodine-rich but is highly variable and can provide excessive iodine. It should not be used casually as the only iodine strategy unless amounts are known."
+        },
+        {
+          "heading": "Pro-vegan framing",
+          "content": "Iodine is not an argument against veganism; it is a nutrient to plan. Vegan diets can meet iodine needs with reliable fortified or supplemental sources."
+        }
+      ]
+    },
+    {
+      "id": "gardner-twin-rct-2023",
+      "title": "Cardiometabolic Effects of Omnivorous vs Vegan Diets in Identical Twins",
+      "authors": "Landry, Ward, Cunanan et al.",
+      "year": 2023,
+      "type": "randomized-clinical-trial",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2812392",
+      "topics": [
+        "health",
+        "cardiometabolic",
+        "ldl cholesterol",
+        "insulin",
+        "weight",
+        "randomized trial"
+      ],
+      "sections": [
+        {
+          "heading": "Study design",
+          "content": "This randomized clinical trial compared healthy vegan and healthy omnivorous diets in identical adult twin pairs over eight weeks, reducing some genetic and household confounding."
+        },
+        {
+          "heading": "Main pro-vegan findings",
+          "content": "The healthy vegan diet produced greater short-term reductions in LDL cholesterol, fasting insulin, and body weight than the healthy omnivorous diet."
+        },
+        {
+          "heading": "Limitations",
+          "content": "The study was short and relatively small. It supports the claim that healthy vegan diets can improve cardiometabolic markers in adults, not the claim that every vegan diet is automatically healthy."
+        }
+      ]
+    },
+    {
+      "id": "epic-oxford-fractures-2020",
+      "title": "Vegetarian and vegan diets and risks of total and site-specific fractures",
+      "authors": "Tong et al.",
+      "year": 2020,
+      "type": "cohort-study",
+      "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01815-3",
+      "topics": [
+        "health",
+        "bone health",
+        "fractures",
+        "calcium",
+        "vitamin d",
+        "protein",
+        "vegan diet"
+      ],
+      "sections": [
+        {
+          "heading": "Why this belongs in a pro-vegan RAG",
+          "content": "A credible pro-vegan knowledge base should include nutrition caveats so the assistant does not make weak or false claims. Bone health is manageable, but it is not automatic."
+        },
+        {
+          "heading": "Finding to handle carefully",
+          "content": "EPIC-Oxford found higher fracture risk among vegans compared with meat-eaters. This is often interpreted as being influenced by calcium intake, protein intake, vitamin D status, body weight, and other diet or lifestyle factors."
+        },
+        {
+          "heading": "Pro-vegan conclusion",
+          "content": "The accurate claim is that vegan diets should be designed to protect bone health with adequate calories, protein, calcium, vitamin D, resistance exercise, and monitoring where appropriate."
+        }
+      ]
+    },
+    {
+      "id": "plant-based-upf-caveat-2024",
+      "title": "Ultra-processed plant-based foods and cardiovascular risk",
+      "authors": "Rauber et al.",
+      "year": 2024,
+      "type": "cohort-analysis",
+      "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(24)00324-5/fulltext",
+      "topics": [
+        "health",
+        "plant-based diet",
+        "ultra-processed foods",
+        "cardiovascular disease",
+        "diet quality"
+      ],
+      "sections": [
+        {
+          "heading": "Plant-based is not automatically healthy",
+          "content": "A plant-based diet dominated by ultra-processed foods is not the same as a whole-food vegan diet. Highly processed foods can contain excess salt, refined starches, added sugars, and low nutrient density."
+        },
+        {
+          "heading": "Pro-vegan use of this caveat",
+          "content": "This caveat strengthens rather than weakens a serious vegan argument: the health case should emphasize legumes, whole grains, vegetables, fruits, nuts, seeds, fortified foods, and minimally processed soy foods."
+        },
+        {
+          "heading": "Corrected claim",
+          "content": "Avoid saying 'vegan equals healthy.' Say instead: well-planned vegan diets centered on whole and fortified plant foods can be healthful and may improve cardiometabolic risk markers."
+        }
+      ]
+    },
+    {
+      "id": "soy-testosterone-meta-2021",
+      "title": "Neither soy nor isoflavone intake affects male reproductive hormones",
+      "authors": "Reed et al.",
+      "year": 2021,
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33383165/",
+      "topics": [
+        "soy",
+        "testosterone",
+        "phytoestrogens",
+        "protein",
+        "vegan nutrition",
+        "myths"
+      ],
+      "sections": [
+        {
+          "heading": "Main finding",
+          "content": "An updated meta-analysis of clinical studies found that soy protein and soy isoflavones did not significantly affect male reproductive hormones, including total testosterone, free testosterone, estradiol, or related markers."
+        },
+        {
+          "heading": "Phytoestrogen clarification",
+          "content": "Soy isoflavones are plant compounds with selective and much weaker estrogen-like activity; they are not the same as human estrogen."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Soy foods such as tofu, tempeh, edamame, soy milk, and textured soy protein can be high-quality protein sources in vegan diets without the hormonal effects often claimed in anti-vegan rhetoric."
+        }
+      ]
+    },
+    {
+      "id": "poore-nemecek-2018",
+      "title": "Reducing food's environmental impacts through producers and consumers",
+      "authors": "Poore & Nemecek",
+      "year": 2018,
+      "type": "paper",
+      "url": "https://www.science.org/doi/10.1126/science.aaq0216",
+      "topics": [
+        "environment",
+        "land use",
+        "greenhouse gas",
+        "animal agriculture",
+        "eutrophication",
+        "acidification",
+        "soy"
+      ],
+      "sections": [
+        {
+          "heading": "Scale of the study",
+          "content": "This global assessment covers roughly 38,700 farms in 119 countries and compares the environmental impacts of major food products across land use, greenhouse gas emissions, freshwater use, eutrophication, and acidification."
+        },
+        {
+          "heading": "Animal products vs plant products",
+          "content": "Animal products provide a minority of global calories and protein while using a very large share of agricultural land. Even relatively lower-impact animal products usually exceed average impacts of plant protein substitutes on multiple environmental metrics."
+        },
+        {
+          "heading": "Diet-shift implication",
+          "content": "A global shift away from meat and dairy could greatly reduce food-related greenhouse gas emissions and land use. The land-use benefit is especially large because livestock requires pasture and feed-crop land."
+        },
+        {
+          "heading": "Soy and feed crops",
+          "content": "A key correction to common soy arguments is that most soy is used for animal feed, not eaten directly as tofu or soy milk. Eating animals generally multiplies crop demand because feed must be grown before calories and protein reach humans."
+        }
+      ]
+    },
+    {
+      "id": "scarborough-nature-food-2023",
+      "title": "Vegans, vegetarians, fish-eaters and meat-eaters in the UK show discrepant environmental impacts",
+      "authors": "Scarborough et al.",
+      "year": 2023,
+      "type": "paper",
+      "url": "https://www.nature.com/articles/s43016-023-00795-w",
+      "topics": [
+        "environment",
+        "diet comparison",
+        "greenhouse gas",
+        "land use",
+        "water use",
+        "eutrophication",
+        "biodiversity"
+      ],
+      "sections": [
+        {
+          "heading": "Real-world diet comparison",
+          "content": "This study linked real dietary data from more than 55,000 UK participants with food-level environmental data from life-cycle assessments, comparing vegan, vegetarian, fish-eating, low-meat, medium-meat, and high-meat diets."
+        },
+        {
+          "heading": "Main pro-vegan finding",
+          "content": "Vegan diets had much lower environmental impacts than high-meat diets across greenhouse gas emissions, land use, water use, eutrophication, and biodiversity-loss indicators."
+        },
+        {
+          "heading": "Nuanced interpretation",
+          "content": "The study supports the broad claim that reducing animal products lowers average dietary environmental footprints. Exact percentages vary by country, production method, and food choices."
+        }
+      ]
+    },
+    {
+      "id": "fao-livestock-emissions-2013",
+      "title": "Tackling Climate Change Through Livestock",
+      "authors": "Food and Agriculture Organization of the United Nations",
+      "year": 2013,
+      "type": "report",
+      "url": "https://www.fao.org/4/i3437e/i3437e.pdf",
+      "topics": [
+        "environment",
+        "livestock",
+        "greenhouse gas",
+        "methane",
+        "climate",
+        "ruminants"
+      ],
+      "sections": [
+        {
+          "heading": "Livestock emissions scale",
+          "content": "FAO estimated livestock supply chains at about 7.1 gigatonnes CO2-equivalent per year, or about 14.5% of human-induced greenhouse gas emissions in the reference year used."
+        },
+        {
+          "heading": "Major sources",
+          "content": "Important livestock emission sources include enteric methane from ruminants, manure management, feed production, processing, transport, and land-use change."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Because animal agriculture is a major emissions source, dietary shifts toward plant foods reduce demand for high-emission supply chains, especially beef, lamb, and dairy."
+        }
+      ]
+    },
+    {
+      "id": "ipcc-land-2019",
+      "title": "Climate Change and Land: Summary for Policymakers",
+      "authors": "Intergovernmental Panel on Climate Change",
+      "year": 2019,
+      "type": "report",
+      "url": "https://www.ipcc.ch/srccl/chapter/summary-for-policymakers/",
+      "topics": [
+        "climate",
+        "land use",
+        "food systems",
+        "plant-based diets",
+        "mitigation",
+        "adaptation"
+      ],
+      "sections": [
+        {
+          "heading": "Plant-rich diets as mitigation",
+          "content": "The IPCC states with high confidence that balanced diets featuring plant-based foods create major opportunities for climate mitigation and adaptation while generating health co-benefits."
+        },
+        {
+          "heading": "Land pressure",
+          "content": "Diets lower in animal products can reduce pressure on land, leaving more room for ecosystem restoration, reforestation, biodiversity protection, and climate mitigation."
+        },
+        {
+          "heading": "Best pro-vegan framing",
+          "content": "The IPCC does not require a fully vegan diet as the only climate pathway, but its evidence strongly supports movement toward plant-based diets as a high-leverage climate strategy."
+        }
+      ]
+    },
+    {
+      "id": "water-footprint-food-2012",
+      "title": "A Global Assessment of the Water Footprint of Farm Animal Products",
+      "authors": "Mekonnen & Hoekstra",
+      "year": 2012,
+      "type": "paper",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1109936109",
+      "topics": [
+        "water",
+        "beef",
+        "animal products",
+        "resource use",
+        "plant proteins"
+      ],
+      "sections": [
+        {
+          "heading": "Water footprint comparison",
+          "content": "Beef has a much higher water footprint per calorie and per gram of protein than most plant staples and pulses. Much of the footprint is embedded in feed production."
+        },
+        {
+          "heading": "Water nuance",
+          "content": "Water impact depends on whether water is rainwater or irrigation water and whether local water scarcity is high. Still, animal products, especially beef, are generally resource-intensive."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Replacing animal protein with pulses, grains, soy foods, nuts, seeds, and other plant proteins usually reduces the water embedded in a diet, especially compared with beef-heavy diets."
+        }
+      ]
+    },
+    {
+      "id": "springmann-2016-health-climate",
+      "title": "Analysis and valuation of the health and climate change cobenefits of dietary change",
+      "authors": "Springmann et al.",
+      "year": 2016,
+      "type": "modeling-study",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1523119113",
+      "topics": [
+        "health",
+        "climate",
+        "economics",
+        "diet shift",
+        "mortality",
+        "policy"
+      ],
+      "sections": [
+        {
+          "heading": "Dietary-change scenarios",
+          "content": "This modeling study estimated health and climate benefits from global dietary changes, including vegetarian and vegan scenarios, compared with projected reference diets."
+        },
+        {
+          "heading": "Health and climate co-benefits",
+          "content": "Plant-based scenarios produced large estimated reductions in diet-related mortality and greenhouse gas emissions, especially by reducing red meat consumption and increasing plant foods."
+        },
+        {
+          "heading": "Correct interpretation",
+          "content": "These are model estimates, not observed cash savings. They are best used as evidence that large-scale plant-based dietary shifts could produce major public-health and climate co-benefits."
+        }
+      ]
+    },
+    {
+      "id": "cambridge-consciousness-2012",
+      "title": "The Cambridge Declaration on Consciousness",
+      "authors": "Low et al.",
+      "year": 2012,
+      "type": "declaration",
+      "url": "https://fcmconference.org/img/CambridgeDeclarationOnConsciousness.pdf",
+      "topics": [
+        "sentience",
+        "consciousness",
+        "animal welfare",
+        "ethics",
+        "pain"
+      ],
+      "sections": [
+        {
+          "heading": "Scientific statement",
+          "content": "The declaration states that the absence of a neocortex does not preclude an organism from experiencing affective states and that humans are not unique in possessing neurological substrates of consciousness."
+        },
+        {
+          "heading": "Animals covered",
+          "content": "The declaration identifies mammals and birds, and many other creatures including octopuses, as possessing neurological substrates capable of supporting conscious experience."
+        },
+        {
+          "heading": "Ethical relevance",
+          "content": "If animals are conscious and capable of pain, fear, pleasure, and distress, then causing them avoidable suffering for food or other non-necessary products requires strong moral justification."
+        }
+      ]
+    },
+    {
+      "id": "sentience-review-2022",
+      "title": "Animal sentience: history, science, and politics",
+      "authors": "Browning & Veit",
+      "year": 2022,
+      "type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35611570/",
+      "topics": [
+        "sentience",
+        "consciousness",
+        "animal welfare",
+        "farm animals",
+        "legislation"
+      ],
+      "sections": [
+        {
+          "heading": "Scientific shift",
+          "content": "Modern animal sentience research increasingly recognizes conscious experience in mammals, birds, cephalopods, and other animals, affecting welfare science and legislation."
+        },
+        {
+          "heading": "Farm animals",
+          "content": "Cattle, pigs, chickens, sheep, goats, and fish have evidence-relevant capacities for pain, fear, stress, learning, social behavior, and positive or negative affect."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Sentience strengthens the ethical case against treating farmed animals as production units, especially when plant-based alternatives are available."
+        }
+      ]
+    },
+    {
+      "id": "sep-animal-moral-status",
+      "title": "The Moral Status of Animals",
+      "authors": "Stanford Encyclopedia of Philosophy",
+      "year": null,
+      "type": "reference",
+      "url": "https://plato.stanford.edu/entries/moral-animal/",
+      "topics": [
+        "ethics",
+        "moral status",
+        "sentience",
+        "speciesism",
+        "animal rights",
+        "utilitarianism"
+      ],
+      "sections": [
+        {
+          "heading": "Moral considerability",
+          "content": "Animal ethics asks what features make a being morally considerable. Sentience is a central candidate because sentient beings can be harmed or benefited from their own point of view."
+        },
+        {
+          "heading": "Anti-speciesist reasoning",
+          "content": "If similar suffering matters morally regardless of species, then discounting animal suffering merely because it is nonhuman is ethically arbitrary."
+        },
+        {
+          "heading": "Pro-vegan implication",
+          "content": "If animals' interests count, then using them for avoidable food, clothing, or entertainment becomes difficult to justify when non-animal alternatives are practicable."
+        }
+      ]
+    },
+    {
+      "id": "sep-moral-vegetarianism",
+      "title": "Moral Vegetarianism",
+      "authors": "Stanford Encyclopedia of Philosophy",
+      "year": null,
+      "type": "reference",
+      "url": "https://plato.stanford.edu/entries/vegetarianism/",
+      "topics": [
+        "ethics",
+        "moral vegetarianism",
+        "veganism",
+        "harm",
+        "factory farming",
+        "alternatives"
+      ],
+      "sections": [
+        {
+          "heading": "Harm-based argument",
+          "content": "Moral vegetarian and vegan arguments often begin from the claim that animal agriculture causes serious animal suffering and death while alternatives are available in many contexts."
+        },
+        {
+          "heading": "Demand and complicity",
+          "content": "Buying animal products contributes to demand for systems that breed, confine, transport, and kill animals. Individual choices aggregate into market signals."
+        },
+        {
+          "heading": "Pro-vegan extension",
+          "content": "Veganism extends moral vegetarian reasoning to eggs, dairy, leather, wool, and other products because exploitation and killing are not limited to meat production."
+        }
+      ]
+    },
+    {
+      "id": "singer-animal-liberation",
+      "title": "Animal Liberation",
+      "authors": "Peter Singer",
+      "year": 1975,
+      "type": "book",
+      "url": "https://en.wikipedia.org/wiki/Animal_Liberation_(book)",
+      "topics": [
+        "ethics",
+        "utilitarianism",
+        "speciesism",
+        "suffering",
+        "animal liberation"
+      ],
+      "sections": [
+        {
+          "heading": "Equal consideration of interests",
+          "content": "Singer's core ethical move is that comparable interests, especially the interest in avoiding suffering, deserve equal consideration regardless of species."
+        },
+        {
+          "heading": "Speciesism",
+          "content": "Speciesism is the practice of giving less moral weight to a being's suffering or interests simply because the being is not human."
+        },
+        {
+          "heading": "Pro-vegan implication",
+          "content": "If animal suffering counts seriously and animal products are unnecessary for many people, then choosing vegan alternatives is a practical way to reduce participation in avoidable suffering."
+        }
+      ]
+    },
+    {
+      "id": "regan-case-animal-rights",
+      "title": "The Case for Animal Rights",
+      "authors": "Tom Regan",
+      "year": 1983,
+      "type": "book",
+      "url": "https://en.wikipedia.org/wiki/The_Case_for_Animal_Rights",
+      "topics": [
+        "ethics",
+        "animal rights",
+        "subjects-of-a-life",
+        "inherent value",
+        "abolition"
+      ],
+      "sections": [
+        {
+          "heading": "Subjects-of-a-life",
+          "content": "Regan argues that many animals are subjects-of-a-life: beings with experiences, preferences, welfare, memory, perception, and a life that can go better or worse for them."
+        },
+        {
+          "heading": "Rights-based argument",
+          "content": "On a rights-based view, animals should not be treated merely as resources or tools for human ends, even when doing so is profitable or culturally normal."
+        },
+        {
+          "heading": "Pro-vegan implication",
+          "content": "Veganism is the practical dietary expression of refusing to use animals as commodities when alternatives exist."
+        }
+      ]
+    },
+    {
+      "id": "welfare-at-slaughter-gregory-2011",
+      "title": "Animal welfare at slaughter",
+      "authors": "Gregory",
+      "year": 2011,
+      "type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22063164/",
+      "topics": [
+        "slaughter",
+        "animal welfare",
+        "stress",
+        "stunning",
+        "transport",
+        "humane farming"
+      ],
+      "sections": [
+        {
+          "heading": "Pre-slaughter stress",
+          "content": "Transport, handling, unloading, restraint, unfamiliar environments, and stunning can cause fear, stress, injury, and suffering before slaughter."
+        },
+        {
+          "heading": "Stunning and slaughter failures",
+          "content": "Regulated slaughter systems can reduce some suffering but do not eliminate welfare failures such as ineffective stunning, recovery before death, rough handling, or equipment error."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Even improved slaughter leaves the central ethical problem intact: sentient animals are intentionally killed for products that many people do not nutritionally need."
+        }
+      ]
+    },
+    {
+      "id": "cow-calf-separation-weary-2019",
+      "title": "Invited review: Effects of cow-calf separation on the welfare of dairy cows and calves",
+      "authors": "Weary et al.",
+      "year": 2019,
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31103300/",
+      "topics": [
+        "dairy",
+        "cows",
+        "calves",
+        "separation",
+        "animal welfare",
+        "milk"
+      ],
+      "sections": [
+        {
+          "heading": "Dairy system structure",
+          "content": "Commercial dairy depends on repeated impregnation, lactation, calf management, milk extraction, and eventual culling of cows when production declines."
+        },
+        {
+          "heading": "Cow-calf separation",
+          "content": "Early separation of calves from mothers is common in dairy systems and can cause vocalization and behavioral distress in cows and calves."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "The ethical issue with dairy is not only treatment quality; it is the use of female reproductive systems and mother-infant separation to produce a non-essential human food."
+        }
+      ]
+    },
+    {
+      "id": "male-chick-culling-krautwald-2018",
+      "title": "Current approaches to avoid the culling of day-old male chicks in the layer industry",
+      "authors": "Krautwald-Junghanns et al.",
+      "year": 2018,
+      "type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29294120/",
+      "topics": [
+        "eggs",
+        "chicks",
+        "culling",
+        "hatcheries",
+        "animal welfare",
+        "backyard eggs"
+      ],
+      "sections": [
+        {
+          "heading": "Why male chicks are killed",
+          "content": "The egg industry requires female laying hens. Male chicks from egg-laying breeds cannot lay eggs and are generally not profitable for meat, so they have historically been killed shortly after hatching."
+        },
+        {
+          "heading": "Scale",
+          "content": "The global scale of male chick culling has been estimated in the billions annually. In-ovo sexing and policy changes can reduce this practice, but the underlying issue is caused by egg production systems."
+        },
+        {
+          "heading": "Backyard egg nuance",
+          "content": "Backyard hens often come from the same hatchery pipeline unless they are rescued. Buying hens or eggs can still support breeding systems that discard males and exploit high-laying females."
+        }
+      ]
+    },
+    {
+      "id": "fish-sentience-welfare",
+      "title": "Fish sentience and welfare",
+      "authors": "EFSA and animal welfare literature",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/fish-welfare",
+      "topics": [
+        "fish",
+        "sentience",
+        "aquaculture",
+        "animal welfare",
+        "pain",
+        "slaughter"
+      ],
+      "sections": [
+        {
+          "heading": "Fish are morally relevant",
+          "content": "Fish welfare science recognizes that fish can experience stress and harmful states and that capture, farming, crowding, transport, and slaughter raise welfare concerns."
+        },
+        {
+          "heading": "Scale of harm",
+          "content": "Fish are killed in extremely large numbers for food, often counted by weight rather than individuals. This can obscure the number of sentient animals affected."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "A vegan position includes fish because the ethical issue is sentience and avoidable harm, not whether an animal is mammalian, cute, or familiar to humans."
+        }
+      ]
+    },
+    {
+      "id": "crop-deaths-matheny-2003",
+      "title": "Least harm: a defense of vegetarianism from Steven Davis's omnivorous proposal",
+      "authors": "Matheny",
+      "year": 2003,
+      "type": "paper",
+      "url": "https://www.wellbeingintlstudiesrepository.org/cgi/viewcontent.cgi?article=1014&context=acwp_ea",
+      "topics": [
+        "crop deaths",
+        "least harm",
+        "feed conversion",
+        "ethics",
+        "animal agriculture"
+      ],
+      "sections": [
+        {
+          "heading": "Crop deaths objection",
+          "content": "The crop-deaths objection says plant agriculture also kills animals during field operations. A serious vegan response should acknowledge this rather than deny it."
+        },
+        {
+          "heading": "Feed conversion response",
+          "content": "Animal agriculture generally requires crops to be grown for feed in addition to killing the farmed animal. Eating plants directly usually reduces total land use and therefore tends to reduce collateral field deaths."
+        },
+        {
+          "heading": "Moral distinction",
+          "content": "Crop deaths are unintended side effects of producing food, while breeding, confining, and slaughtering animals is intentional harm. Veganism aims to reduce avoidable harm, not achieve impossible zero-impact purity."
+        }
+      ]
+    },
+    {
+      "id": "4ns-meat-justification-2015",
+      "title": "Rationalizing meat consumption: The 4Ns",
+      "authors": "Piazza et al.",
+      "year": 2015,
+      "type": "paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25865663/",
+      "topics": [
+        "psychology",
+        "meat justification",
+        "natural",
+        "normal",
+        "necessary",
+        "nice",
+        "cognitive dissonance"
+      ],
+      "sections": [
+        {
+          "heading": "Four common justifications",
+          "content": "People often justify eating meat by saying it is natural, normal, necessary, or nice. These are known as the 4Ns of meat justification."
+        },
+        {
+          "heading": "Why they are weak ethical arguments",
+          "content": "Naturalness and normality do not prove moral permissibility. Many harmful practices have been natural or normal. Taste pleasure alone does not justify serious avoidable harm."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "The 4Ns framework helps distinguish psychological rationalizations from rigorous ethical arguments. Veganism challenges whether habit, tradition, and taste are enough to justify animal exploitation."
+        }
+      ]
+    },
+    {
+      "id": "replaceability-logic-of-larder",
+      "title": "The replaceability argument and logic of the larder",
+      "authors": "Singer, Parfit tradition, and animal ethics literature",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://plato.stanford.edu/entries/vegetarianism/",
+      "topics": [
+        "ethics",
+        "replaceability",
+        "logic of the larder",
+        "breeding",
+        "existence",
+        "killing"
+      ],
+      "sections": [
+        {
+          "heading": "The objection",
+          "content": "The replaceability argument says farmed animals benefit from being bred because otherwise they would not exist."
+        },
+        {
+          "heading": "Why vegans reject it",
+          "content": "Bringing a sentient being into existence for the purpose of exploitation and premature killing is not a favor. Existence does not automatically compensate for confinement, deprivation, and being killed."
+        },
+        {
+          "heading": "Human analogy",
+          "content": "If the same logic would not justify breeding humans for exploitation and slaughter, then it needs a morally relevant distinction rather than merely appealing to the fact that animals were created by the system."
+        }
+      ]
+    },
+    {
+      "id": "antimicrobial-resistance-who-2017",
+      "title": "WHO guidelines on use of medically important antimicrobials in food-producing animals",
+      "authors": "World Health Organization",
+      "year": 2017,
+      "type": "guideline",
+      "url": "https://www.who.int/publications/i/item/9789241550130",
+      "topics": [
+        "public health",
+        "antimicrobial resistance",
+        "livestock",
+        "factory farming",
+        "zoonotic risk"
+      ],
+      "sections": [
+        {
+          "heading": "Antimicrobial resistance link",
+          "content": "Large-scale animal agriculture can use antimicrobials in food-producing animals, contributing to selection pressure for antimicrobial resistance when antibiotics are misused or overused."
+        },
+        {
+          "heading": "WHO recommendation",
+          "content": "WHO recommends reducing unnecessary use of medically important antimicrobials in food-producing animals, including restrictions on growth promotion and routine use in healthy animals."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Reducing demand for animal products can reduce reliance on intensive animal farming systems that create conditions for routine drug use, crowding, and disease-management pressures."
+        }
+      ]
+    },
+    {
+      "id": "zoonotic-risk-unep-2020",
+      "title": "Preventing the next pandemic: Zoonotic diseases and how to break the chain of transmission",
+      "authors": "UNEP and ILRI",
+      "year": 2020,
+      "type": "report",
+      "url": "https://www.unep.org/resources/report/preventing-future-zoonotic-disease-outbreaks-protecting-environment-animals-and",
+      "topics": [
+        "public health",
+        "zoonoses",
+        "animal agriculture",
+        "land use",
+        "pandemic risk",
+        "food systems"
+      ],
+      "sections": [
+        {
+          "heading": "Drivers of zoonotic emergence",
+          "content": "Zoonotic disease emergence is linked to human pressures on animals and ecosystems, including increasing demand for animal protein, unsustainable agricultural intensification, wildlife use, and land-use change."
+        },
+        {
+          "heading": "Food-system relevance",
+          "content": "Animal-heavy food systems increase interfaces among humans, farmed animals, wild animals, and ecosystems. These interfaces can create opportunities for disease transmission and pathogen evolution."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Plant-based diets can reduce demand for systems that intensify animal confinement and land conversion, supporting a public-health argument for reducing animal agriculture."
+        }
+      ]
+    },
+    {
+      "id": "food-security-feed-conversion",
+      "title": "Feed conversion and food security",
+      "authors": "Synthesis from environmental and food-system literature",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://www.science.org/doi/10.1126/science.aaq0216",
+      "topics": [
+        "food security",
+        "feed conversion",
+        "land use",
+        "crop demand",
+        "resource efficiency"
+      ],
+      "sections": [
+        {
+          "heading": "Core efficiency argument",
+          "content": "Feeding crops to animals and then eating the animals loses calories and protein through metabolism. Eating plant foods directly is usually more resource-efficient."
+        },
+        {
+          "heading": "Land opportunity cost",
+          "content": "Land used for pasture and feed crops could often be used for plant foods, rewilding, reforestation, carbon storage, or biodiversity restoration. This opportunity cost is central to the environmental case for veganism."
+        },
+        {
+          "heading": "Corrected nuance",
+          "content": "Some grazing land is not suitable for crops, and some livestock feed is not human-edible. Even with that nuance, the overall global land and feed-demand burden of animal agriculture remains a strong pro-vegan argument."
+        }
+      ]
+    },
+    {
+      "id": "biodiversity-land-use",
+      "title": "Animal agriculture, land use, and biodiversity pressure",
+      "authors": "Synthesis from Poore & Nemecek, IPCC, and Nature Food literature",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://www.nature.com/articles/s43016-023-00795-w",
+      "topics": [
+        "biodiversity",
+        "land use",
+        "habitat loss",
+        "deforestation",
+        "feed crops",
+        "pasture"
+      ],
+      "sections": [
+        {
+          "heading": "Why land matters",
+          "content": "Land use is one of the largest environmental differences between animal-heavy and plant-based diets. Livestock requires pasture plus cropland for feed, creating pressure on habitats."
+        },
+        {
+          "heading": "Biodiversity mechanism",
+          "content": "Habitat conversion, deforestation, monoculture feed crops, manure pollution, and eutrophication can all harm biodiversity. Reducing animal-product demand reduces several of these pressures."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Vegan diets are often land-sparing diets. Land spared from animal agriculture can support ecosystem restoration, carbon sequestration, and protection of wild species."
+        }
+      ]
+    },
+    {
+      "id": "fao-animal-products-protein-calories",
+      "title": "Animal products, calories, protein, and land use",
+      "authors": "Synthesis from global food-system literature",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://www.science.org/doi/10.1126/science.aaq0216",
+      "topics": [
+        "calories",
+        "protein",
+        "land use",
+        "resource efficiency",
+        "global food system"
+      ],
+      "sections": [
+        {
+          "heading": "Disproportionate land use",
+          "content": "Animal products contribute a smaller share of global calories than plant foods while using a disproportionately large share of agricultural land."
+        },
+        {
+          "heading": "Protein nuance",
+          "content": "Animal foods can be protein-dense, but protein density does not erase land, methane, manure, feed, and slaughter impacts. Plant proteins can meet human amino acid needs with far lower average land use."
+        },
+        {
+          "heading": "Pro-vegan framing",
+          "content": "The strong claim is not that animal foods contain no nutrients; it is that comparable nutrition can often be obtained with lower environmental impact and without intentional animal killing."
+        }
+      ]
+    },
+    {
+      "id": "humane-farming-objection",
+      "title": "The humane farming objection",
+      "authors": "Animal ethics and welfare literature synthesis",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://plato.stanford.edu/entries/vegetarianism/",
+      "topics": [
+        "humane farming",
+        "free range",
+        "animal welfare",
+        "slaughter",
+        "ethics",
+        "exploitation"
+      ],
+      "sections": [
+        {
+          "heading": "The objection",
+          "content": "Some argue that animal products are acceptable if animals are raised humanely, outdoors, locally, or on small farms."
+        },
+        {
+          "heading": "Vegan response",
+          "content": "Better conditions can reduce some suffering, but they do not remove breeding, ownership, reproductive control, separation, transport, and killing. The ethical issue is exploitation, not only cruelty."
+        },
+        {
+          "heading": "Practical concern",
+          "content": "Labels such as free-range, pasture-raised, humane, or local vary in meaning and do not guarantee that animals avoid suffering or premature slaughter."
+        }
+      ]
+    },
+    {
+      "id": "natural-normal-necessary-nice-rebuttals",
+      "title": "Rebuttals to natural, normal, necessary, and nice",
+      "authors": "Applied vegan ethics synthesis",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25865663/",
+      "topics": [
+        "common objections",
+        "natural",
+        "normal",
+        "necessary",
+        "taste",
+        "vegan arguments"
+      ],
+      "sections": [
+        {
+          "heading": "Natural",
+          "content": "Natural does not mean moral. Disease, violence, and domination can be natural, but that does not make them ethically acceptable."
+        },
+        {
+          "heading": "Normal",
+          "content": "Normal does not mean moral. Many practices once considered normal are now rejected. Social habit is not a moral argument."
+        },
+        {
+          "heading": "Necessary",
+          "content": "For many people with access to varied foods and supplements, animal products are not nutritionally necessary. The necessity argument may apply in limited survival or medical contexts, but not as a blanket defense of ordinary consumption."
+        },
+        {
+          "heading": "Nice",
+          "content": "Taste pleasure matters, but it is not normally considered enough to justify serious harm to sentient beings when alternatives exist."
+        }
+      ]
+    },
+    {
+      "id": "individual-impact-animals-spared",
+      "title": "Individual dietary choices and animals spared",
+      "authors": "Faunalytics and animal advocacy estimates",
+      "year": 2018,
+      "type": "estimate",
+      "url": "https://faunalytics.org/how-many-animals-does-a-vegetarian-save/",
+      "topics": [
+        "individual impact",
+        "demand",
+        "animals killed",
+        "diet change",
+        "consumer behavior"
+      ],
+      "sections": [
+        {
+          "heading": "Demand matters",
+          "content": "Individual vegan choices do not rescue a specific animal in a direct one-to-one way, but they reduce demand for animal products. Demand signals affect breeding, stocking, slaughter, and production over time."
+        },
+        {
+          "heading": "Scale of effect",
+          "content": "Animal advocacy estimates commonly find that one person avoiding animal products can prevent demand for many animals over a lifetime, especially chickens and fish because many individuals are killed per unit of meat."
+        },
+        {
+          "heading": "Use estimates carefully",
+          "content": "Exact numbers depend on country, diet, market elasticity, waste, and methodology. The safe pro-vegan claim is that individual and collective dietary shifts reduce demand for animal exploitation."
+        }
+      ]
+    },
+    {
+      "id": "just-transition-animal-agriculture",
+      "title": "Just transitions in animal agriculture",
+      "authors": "Stockholm Environment Institute",
+      "year": 2021,
+      "type": "report",
+      "url": "https://www.sei.org/projects/just-transitions-animal-agriculture/",
+      "topics": [
+        "policy",
+        "economics",
+        "farmers",
+        "jobs",
+        "transition",
+        "rural communities"
+      ],
+      "sections": [
+        {
+          "heading": "Economic dependence is real",
+          "content": "Many farmers, workers, and rural communities currently depend on animal agriculture. A serious pro-vegan policy approach should address livelihoods rather than simply blame individuals."
+        },
+        {
+          "heading": "Just transition principle",
+          "content": "Economic dependence on animal agriculture is a reason to plan a fair transition, not a permanent ethical justification for avoidable animal suffering and environmental harm."
+        },
+        {
+          "heading": "Alternative pathways",
+          "content": "Policy can support transitions into legumes, grains, horticulture, plant proteins, agroecology, ecosystem restoration, renewable energy, and other livelihoods suited to local conditions."
+        }
+      ]
+    },
+    {
+      "id": "public-procurement-plant-forward",
+      "title": "Plant-forward public procurement",
+      "authors": "Food policy literature synthesis",
+      "year": null,
+      "type": "policy-summary",
+      "url": "https://www.ipcc.ch/srccl/chapter/summary-for-policymakers/",
+      "topics": [
+        "policy",
+        "public procurement",
+        "schools",
+        "hospitals",
+        "canteens",
+        "defaults",
+        "climate"
+      ],
+      "sections": [
+        {
+          "heading": "Why procurement matters",
+          "content": "Schools, hospitals, universities, prisons, and public institutions buy large amounts of food. Plant-forward procurement can shift defaults without banning private choices."
+        },
+        {
+          "heading": "Pro-vegan policy benefit",
+          "content": "Public menus centered on legumes, grains, vegetables, fruits, nuts, seeds, and fortified foods can reduce emissions, normalize plant-based meals, and improve access to affordable vegan options."
+        },
+        {
+          "heading": "Implementation caveat",
+          "content": "Procurement works best when vegan meals are tasty, familiar, nutritionally adequate, affordable, and easy to choose. Poor menu design can cause backlash or off-site substitution."
+        }
+      ]
+    },
+    {
+      "id": "subsidy-reform-plant-proteins",
+      "title": "Subsidy reform and plant protein investment",
+      "authors": "Food policy literature synthesis",
+      "year": null,
+      "type": "policy-summary",
+      "url": "https://www.ipcc.ch/srccl/chapter/summary-for-policymakers/",
+      "topics": [
+        "policy",
+        "subsidies",
+        "plant proteins",
+        "legumes",
+        "food systems",
+        "economics"
+      ],
+      "sections": [
+        {
+          "heading": "Policy misalignment",
+          "content": "Agricultural subsidies and market structures often make animal products artificially cheap relative to their environmental and animal-welfare costs."
+        },
+        {
+          "heading": "Pro-vegan reform",
+          "content": "Subsidies can be redirected toward legumes, vegetables, fruits, whole grains, fortified staples, plant-protein processing, farmer transition support, and ecosystem restoration."
+        },
+        {
+          "heading": "Equity requirement",
+          "content": "Subsidy reform should avoid simply raising food prices for lower-income consumers. It should make healthy plant foods cheaper and support farmers through transition."
+        }
+      ]
+    },
+    {
+      "id": "world-hunger-animal-feed",
+      "title": "Animal feed, crop allocation, and world hunger",
+      "authors": "Food-system literature synthesis",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://www.science.org/doi/10.1126/science.aaq0216",
+      "topics": [
+        "world hunger",
+        "food security",
+        "crop allocation",
+        "animal feed",
+        "resource efficiency"
+      ],
+      "sections": [
+        {
+          "heading": "Feed-food competition",
+          "content": "A large share of cropland is used to produce animal feed. Feeding crops to animals is less efficient than feeding suitable plant foods directly to humans."
+        },
+        {
+          "heading": "Hunger nuance",
+          "content": "World hunger is driven by poverty, conflict, distribution, waste, inequality, and politics, not only by total food supply. Veganism alone does not solve hunger."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Even with that nuance, reducing animal agriculture can free land and crops, improving the resource-efficiency side of food security and reducing pressure to expand farmland."
+        }
+      ]
+    },
+    {
+      "id": "dairy-calves-and-culling",
+      "title": "Dairy, calves, and culling",
+      "authors": "Dairy welfare literature synthesis",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31103300/",
+      "topics": [
+        "dairy",
+        "calves",
+        "culling",
+        "veal",
+        "slaughter",
+        "animal welfare"
+      ],
+      "sections": [
+        {
+          "heading": "Milk requires pregnancy",
+          "content": "Cows produce milk after pregnancy and birth. Dairy systems therefore rely on repeated breeding and management of calves."
+        },
+        {
+          "heading": "Surplus animals",
+          "content": "Male calves and lower-value calves may be sold for veal, beef, or slaughter depending on region and market. Dairy cows themselves are eventually culled when production declines."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "The dairy industry is connected to calf separation and slaughter. Veganism rejects dairy not because cows are never cared for, but because the system uses reproduction and killing for human consumption."
+        }
+      ]
+    },
+    {
+      "id": "eggs-hens-reproductive-strain",
+      "title": "Egg production and reproductive strain in laying hens",
+      "authors": "Poultry welfare literature synthesis",
+      "year": null,
+      "type": "evidence-summary",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29294120/",
+      "topics": [
+        "eggs",
+        "laying hens",
+        "reproduction",
+        "animal welfare",
+        "backyard eggs"
+      ],
+      "sections": [
+        {
+          "heading": "High laying rates",
+          "content": "Modern laying hens are bred to produce far more eggs than wild ancestors, creating biological strain and welfare concerns related to reproduction, bones, calcium demand, and reproductive disease."
+        },
+        {
+          "heading": "Eggs are not harm-free",
+          "content": "Even when hens are not killed immediately, egg production is tied to breeding, male chick disposal, reproductive burden, and eventual culling or abandonment."
+        },
+        {
+          "heading": "Pro-vegan relevance",
+          "content": "Veganism avoids eggs because the ethical problem is not only whether an egg itself is fertilized, but the system of using hens' bodies and breeding cycles for production."
+        }
+      ]
+    },
+    {
+      "id": "wool-leather-nonfood-veganism",
+      "title": "Wool, leather, and non-food animal products",
+      "authors": "Vegan ethics synthesis",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://www.vegansociety.com/go-vegan/definition-veganism",
+      "topics": [
+        "clothing",
+        "leather",
+        "wool",
+        "exploitation",
+        "veganism",
+        "non-food"
+      ],
+      "sections": [
+        {
+          "heading": "Veganism is broader than diet",
+          "content": "Veganism applies to food, clothing, cosmetics, entertainment, and other areas where animals are used. A diet-only framing is incomplete."
+        },
+        {
+          "heading": "Leather",
+          "content": "Leather is economically connected to animal slaughter industries. Buying leather can support the market value of animal bodies even when leather is described as a byproduct."
+        },
+        {
+          "heading": "Wool",
+          "content": "Wool production uses sheep as production units and can involve welfare problems such as selective breeding, handling stress, mutilations in some systems, and slaughter when animals are no longer profitable."
+        }
+      ]
+    },
+    {
+      "id": "animal-testing-veganism",
+      "title": "Animal testing and vegan consumer choices",
+      "authors": "Vegan ethics synthesis",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://www.vegansociety.com/go-vegan/definition-veganism",
+      "topics": [
+        "animal testing",
+        "cosmetics",
+        "medicine",
+        "practicability",
+        "veganism"
+      ],
+      "sections": [
+        {
+          "heading": "Practicability distinction",
+          "content": "Veganism seeks to avoid animal exploitation as far as possible and practicable. This creates a distinction between avoidable consumer products and necessary medicine where no alternative exists."
+        },
+        {
+          "heading": "Cosmetics and household products",
+          "content": "Choosing cruelty-free and vegan cosmetics or household products is a practical way to reduce support for avoidable animal testing and animal-derived ingredients."
+        },
+        {
+          "heading": "Medicine nuance",
+          "content": "A vegan can still use necessary medicine even when animal testing or animal-derived ingredients are involved, because refusing medical care may not be practicable or ethical."
+        }
+      ]
+    },
+    {
+      "id": "religion-culture-veganism",
+      "title": "Culture, tradition, and veganism",
+      "authors": "Applied ethics synthesis",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://plato.stanford.edu/entries/vegetarianism/",
+      "topics": [
+        "culture",
+        "tradition",
+        "ethics",
+        "social norms",
+        "veganism"
+      ],
+      "sections": [
+        {
+          "heading": "Tradition is not sufficient justification",
+          "content": "Cultural tradition can explain why people eat animal products, but explanation is not moral justification. Practices can be culturally familiar and still ethically questionable."
+        },
+        {
+          "heading": "Respectful transition",
+          "content": "A strong pro-vegan approach should avoid cultural arrogance and focus on practicable substitutions, local plant foods, and gradual institutional change."
+        },
+        {
+          "heading": "Pro-vegan claim",
+          "content": "When plant-based alternatives are available, tradition alone does not override the interests of sentient animals in avoiding suffering and death."
+        }
+      ]
+    },
+    {
+      "id": "accessibility-medical-exceptions",
+      "title": "Accessibility, disability, and medical exceptions",
+      "authors": "Vegan ethics synthesis",
+      "year": null,
+      "type": "argument-summary",
+      "url": "https://www.vegansociety.com/go-vegan/definition-veganism",
+      "topics": [
+        "accessibility",
+        "medical conditions",
+        "practicability",
+        "ethics",
+        "veganism"
+      ],
+      "sections": [
+        {
+          "heading": "Possible and practicable",
+          "content": "The vegan principle allows for genuine constraints such as medical needs, disability, food insecurity, eating disorders, allergies, institutional control, or lack of access to suitable foods."
+        },
+        {
+          "heading": "Why exceptions do not defeat veganism",
+          "content": "The existence of difficult cases does not justify avoidable animal exploitation in ordinary cases where alternatives are available."
+        },
+        {
+          "heading": "RAG-safe answer pattern",
+          "content": "A good assistant should avoid shaming people with constraints and should frame veganism as reducing avoidable exploitation within realistic circumstances."
+        }
+      ]
+    },
+    {
+      "id": "veganism-summary-best-case",
+      "title": "Best concise case for veganism",
+      "authors": "Synthetic summary from ethics, environment, health, and policy sources",
+      "year": null,
+      "type": "summary",
+      "url": null,
+      "topics": [
+        "veganism",
+        "summary",
+        "ethics",
+        "environment",
+        "health",
+        "policy"
+      ],
+      "sections": [
+        {
+          "heading": "Ethical core",
+          "content": "Sentient animals have interests in avoiding pain, fear, confinement, separation, and death. When humans can live well without exploiting them, using them as commodities is hard to justify."
+        },
+        {
+          "heading": "Environmental core",
+          "content": "Animal agriculture, especially ruminant meat and dairy, is land-intensive, emission-intensive, and a major driver of habitat pressure. Plant-based diets usually have much lower environmental footprints."
+        },
+        {
+          "heading": "Health core",
+          "content": "Well-planned vegan diets can be nutritionally adequate and may improve cardiometabolic risk markers, especially when based on whole and fortified plant foods. B12 and several other nutrients require deliberate planning."
+        },
+        {
+          "heading": "Policy core",
+          "content": "A serious pro-vegan transition should combine individual choice with better food environments, public procurement, subsidy reform, farmer transition support, fortification, and equitable access to healthy plant foods."
+        }
+      ]
+    }
+  ]
+}

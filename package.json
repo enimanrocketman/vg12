@@ -1,0 +1,57 @@
+{
+  "name": "vgn",
+  "version": "1.0.0",
+  "description": "Minimal vegan rebuttal agent web app.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c cyan,green \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "tsx watch src/server/index.ts",
+    "dev:client": "vite --host 0.0.0.0",
+    "build": "tsc -p tsconfig.client.json && tsc -p tsconfig.server.json && npm run copy:mastra-data && vite build",
+    "copy:mastra-data": "node -e \"const fs=require('node:fs');const dirs=['dist/server/mastra/agents','dist/server/mastra/knowledge'];dirs.forEach(d=>fs.mkdirSync(d,{recursive:true}));fs.copyFileSync('src/mastra/agents/claims_and_roasts.json','dist/server/mastra/agents/claims_and_roasts.json');fs.copyFileSync('src/mastra/knowledge/topic-articles.json','dist/server/mastra/knowledge/topic-articles.json')\"",
+    "start": "node dist/server/server/index.js",
+    "typecheck": "tsc -p tsconfig.client.json && tsc -p tsconfig.server.json --noEmit",
+    "seed:claims": "tsx src/mastra/rag/seed-claim-index.ts",
+    "seed:topics": "tsx src/mastra/rag/seed-topic-index.ts",
+    "seed:all": "npm run seed:claims -- --force && npm run seed:topics -- --force",
+    "calibrate:rag": "tsx src/mastra/rag/calibrate-retrieval.ts",
+    "mastra:dev": "mastra dev"
+  },
+  "keywords": [
+    "mastra",
+    "vegan",
+    "express",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^3.36.0",
+    "@emotion/react": "^11.14.0",
+    "@mastra/core": "^1.46.0",
+    "@mastra/libsql": "^1.14.1",
+    "@mastra/memory": "^1.21.1",
+    "@mastra/rag": "^2.3.0",
+    "ai": "^6.0.209",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lucide-react": "^1.21.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "concurrently": "^10.0.3",
+    "mastra": "^1.15.1",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.0"
+  }
+}

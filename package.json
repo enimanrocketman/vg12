@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Minimal vegan rebuttal agent web app.",
   "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "concurrently -k -n API,WEB -c cyan,green \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "tsx watch src/server/index.ts",

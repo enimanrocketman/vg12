@@ -1,7 +1,7 @@
 import { createHash, timingSafeEqual } from "node:crypto";
 import type { RequestHandler } from "express";
 
-export const SITE_PASSWORD = process.env.SITE_PASSWORD ?? "1234vg";
+const SITE_PASSWORD = "1234vg";
 
 const AUTH_TOKEN = createHash("sha256")
   .update(`vgn-auth:${SITE_PASSWORD}`)

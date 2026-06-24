@@ -12,7 +12,6 @@ import {
   isValidPassword,
   requireAuth,
 } from "./auth.js";
-import { RoastGenerationError, roastClaim } from "./roast-service.js";
 import {
   apiErrorSchema,
   authRequestSchema,
@@ -60,6 +59,7 @@ app.get("/api/health", requireAuth, (_request, response) => {
 app.post("/api/roast", requireAuth, async (request, response, next) => {
   try {
     const payload = roastRequestSchema.parse(request.body);
+    const { roastClaim } = await import("./roast-service.js");
     const roast = await roastClaim(payload.claim, payload.sessionId);
 
     response.json(roastResponseSchema.parse(roast));
@@ -84,7 +84,7 @@ const errorHandler: ErrorRequestHandler = (error, _request, response, _next) => 
     return;
   }
 
-  if (error instanceof RoastGenerationError) {
+  if (isRoastGenerationError(error)) {
     response
       .status(error.statusCode)
       .json(apiErrorSchema.parse({ error: error.message }));
@@ -109,3 +109,13 @@ server.on("error", (error: NodeJS.ErrnoException) => {
 
   throw error;
 });
+
+function isRoastGenerationError(
+  error: unknown,
+): error is Error & { statusCode: number } {
+  return (
+    error instanceof Error &&
+    error.name === "RoastGenerationError" &&
+    typeof (error as { statusCode?: unknown }).statusCode === "number"
+  );
+}

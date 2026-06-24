@@ -1,4 +1,5 @@
 import { Box, Input, Text } from "@chakra-ui/react";
+import { Lock } from "lucide-react";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 
 import { authenticate } from "../api";
@@ -50,29 +51,33 @@ export function PasswordGate({ children }: PasswordGateProps) {
   }
 
   return (
-    <Box className="shell">
-      <Box className="stage password-stage">
-        <form className="prompt" onSubmit={handleSubmit}>
+    <Box className="password-shell">
+      <Box aria-busy={isLoading} className="password-panel">
+        <Box className="password-header">
+          <Lock aria-hidden className="password-icon" size={14} strokeWidth={1.75} />
+          <Text className="password-label">restricted</Text>
+        </Box>
+
+        <form className="password-form" onSubmit={handleSubmit}>
           <Input
             ref={inputRef}
             aria-label="Password"
             autoComplete="current-password"
-            className="claim-input"
+            className="password-input"
             disabled={isLoading}
             onChange={(event) => setPassword(event.target.value)}
-            placeholder={isLoading ? "" : "password"}
+            placeholder="enter password"
             spellCheck={false}
             type="password"
             value={password}
           />
+          <button className="password-submit" disabled={isLoading || !password.trim()} type="submit">
+            {isLoading ? "..." : "unlock"}
+          </button>
         </form>
 
-        <Box aria-live="polite" className="answer-slot">
-          {isLoading ? (
-            <Text className="processing">checking</Text>
-          ) : error ? (
-            <Text className="answer error">{error}</Text>
-          ) : null}
+        <Box aria-live="polite" className="password-feedback">
+          {error ? <Text className="password-error">{error}</Text> : null}
         </Box>
       </Box>
     </Box>

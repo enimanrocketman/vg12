@@ -1,4 +1,15 @@
 buildImage = "ghcr.io/railwayapp/nixpacks:latest"
+providers = ["node"]
+
+[variables]
+NIXPACKS_NODE_VERSION = "22"
+NIXPACKS_SPA_CADDY = "false"
 
 [phases.setup]
 nixpkgsArchive = "51ad838b03a05b1de6f9f2a0fffecee64a9788ee"
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm run start"
